@@ -1,11 +1,16 @@
-flask-redis
-===========
+# flask-redis
 
 Implementation of the Flask session interface using Redis as storage.
 
-Dependencies
-===========
-Use pip to install these dependencies before running flask-redis.py alongside the redissesion.py in same folder:
-redis
-werkzeug
-uuid
+## Dependencies
+
+Use `pipenv` to install these dependencies before running `flask run` alongside `redissesion.py` in same folder
+
+```sh
+pipenv --python 3.7
+pipenv shell
+pipenv install
+flask run
+```
+
+Log in at <http://127.0.0.1:5000/login>
